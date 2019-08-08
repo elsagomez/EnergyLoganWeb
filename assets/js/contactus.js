@@ -31,7 +31,11 @@ $("#submit").click(function(event) {
     database.ref().push(newContact);
 
     document.getElementById("contactus-form").reset();
+    document.getElementById("form-help").reset();
+
 
 
 
 });
+
+
